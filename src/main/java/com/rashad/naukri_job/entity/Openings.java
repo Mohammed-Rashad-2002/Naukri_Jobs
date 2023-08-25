@@ -16,6 +16,15 @@ public class Openings {
 	private String description;
 	private String requirements;
 	private long salary;
+	private String skill;
+
+	public String getSkill() {
+		return skill;
+	}
+
+	public void setSkill(String skill) {
+		this.skill = skill;
+	}
 
 	public int getJob_id() {
 		return job_id;

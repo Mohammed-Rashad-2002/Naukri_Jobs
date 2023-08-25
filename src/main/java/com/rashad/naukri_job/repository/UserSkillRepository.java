@@ -7,5 +7,7 @@ import com.rashad.naukri_job.entity.UserSkill;
 
 @Repository
 public interface UserSkillRepository extends JpaRepository<UserSkill, Integer>{
+	
+	public UserSkill findByEmail(String email);
 
 }

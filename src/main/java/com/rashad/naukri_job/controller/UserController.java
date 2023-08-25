@@ -42,11 +42,11 @@ public class UserController {
 	@GetMapping("/searchjob/{data}")
 	public List<Openings> searchJob(@PathVariable String data) {
 		
-		
-		System.out.println("Api working");
-		
 		return service.SearchJob(data);
 		
 	}
+	
+	
+	
 
 }
